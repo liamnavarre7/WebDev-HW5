@@ -1,0 +1,38 @@
+<!--
+    HW5 Starter Code
+    Modified from https://github.com/end3r/Gamedev-Canvas-workshop
+    NAME: Liam Navarre
+    CLASS: CPSC 332
+    ASSIGNMENT: HW5
+    LAST MODIFIED: 11/9/2022
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>HW5 Breakout</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <canvas id="myCanvas" width="480" height="320"></canvas>
+    <div>
+        <fieldset>
+            <legend>Options</legend>
+            <button class="block2" id="pauseButton" onclick="">Toggle Pause Game</button>
+            <br>
+            <label for="speedSlider">Game Speed <b id="speedScaler">1</b></label>
+            <input id="speedSlider" type="range" min="0.05" max="4" step="0.05" value="1">
+            <br>
+            <button class="block" id="resetButton">New Game (Resest)</button>
+            <button class="block" id="continueButton">Continue Playing</button>
+            <br>
+            <button class="block2" id="reloadButton">Reload Window</button>
+        </fieldset>
+    </div>
+</body>
+
+</html>
